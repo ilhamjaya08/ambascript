@@ -1,0 +1,9 @@
+am number = 5;
+
+ba (number === 1) {
+  kam(number);
+} batu (number === 2) {
+  kam(number);
+} tu {
+  kam("unfortunately its five");
+}
