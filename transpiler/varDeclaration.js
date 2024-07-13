@@ -1,6 +1,8 @@
 
 /**
  * am<I am>: let
+ * jmk<Jomok>: const
+ * $<dollar>: var
  *
  * @function transpileVarDeclaration 
  * @param {string} code 
