@@ -1,7 +1,7 @@
 {
   "name": "ambascript",
   "publisher": "ilhamjaya08",
-  "version": "0.0.1-dev",
+  "version": "0.0.3-dev",
   "description": "Ambatukam's programming language",
   "main": "src/index.js",
   "bin": {
