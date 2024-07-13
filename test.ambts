@@ -7,3 +7,22 @@ ba (number === 1) {
 } tu {
   kam("unfortunately its five");
 }
+
+am a = 2
+am b = 8
+
+kam('--------')
+
+jmk add = tam(a, b)
+jmk sub = kur(a, b)
+jmk mul = kal(a, b)
+jmk div = bag(a, b)
+
+jmk count = [
+  add,
+  sub,
+  mul,
+  div
+]
+
+kam(count)
