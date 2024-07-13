@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ambaturun": "node src"
   },
-  "keywords": [],
+  "keywords": ["language", "programming", "ambatukam", "programming-language", "javascript"],
   "author": {
     "name": "ilhamjaya08",
     "url": "https://github.com/ilhamjaya08"
