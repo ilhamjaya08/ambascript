@@ -1,7 +1,0 @@
-am kontol = 28
-jmk anjay = 25
-kam(kontol)
-kontol = 21
-kam(kontol)
-kam("------")
-kam( kontol + anjay)
