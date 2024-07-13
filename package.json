@@ -4,6 +4,9 @@
   "version": "0.0.1-dev",
   "description": "Ambatukam's programming language",
   "main": "src/index.js",
+  "bin": {
+    "ambaturun": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ambaturun": "node src"
