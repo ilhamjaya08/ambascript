@@ -26,7 +26,7 @@ function run() {
  */
 function readfile(dir) {
   let pathToScript = path.join(__dirname, "../", dir);
-  if (!pathToScript.endsWith(".ambts")) pathToScript += ".ambts";
+  if (!pathToScript.endsWith(".ambs")) pathToScript += ".ambs";
   return fs.readFileSync(pathToScript).toString();
 }
 
