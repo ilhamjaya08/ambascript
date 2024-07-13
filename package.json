@@ -5,7 +5,8 @@
   "description": "Ambatukam's programming language",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ambaturun": "node cli"
   },
   "keywords": [],
   "author": "",
