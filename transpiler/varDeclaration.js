@@ -6,5 +6,8 @@
  * @param {string} code 
  */
 exports.transpileVarDeclaration = function (code) {
-  return code.replaceAll(/am (.+) =/g, (_, variable) => `let ${variable} =`);
+  return code
+  .replace(/am (.+) =/g, (_, variable) => `let ${variable} =`)
+  .replace(/jmk (.+) =/g, (_, variable) => `const ${variable} =`)
+  .replace(/var (.+) =/g, (_, variable) => `var ${variable} =`);
 }
