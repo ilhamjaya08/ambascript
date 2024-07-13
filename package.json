@@ -1,7 +1,8 @@
 {
   "name": "ambascript",
+  "publisher": "ilhamjaya08",
   "version": "0.0.1-dev",
-  "description": "",
+  "description": "Ambatukam's programming language",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
