@@ -6,9 +6,18 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ambaturun": "node cli"
+    "ambaturun": "node src"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "ilhamjaya08",
+    "url": "https://github.com/ilhamjaya08"
+  },
+  "contributors": [
+    {
+      "name": "Rakemoon",
+      "url": "https://github.com/Rakemoon"
+    }
+  ],
   "license": "ISC"
 }
