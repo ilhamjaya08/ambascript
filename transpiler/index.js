@@ -1,8 +1,8 @@
 const { transpileIfElse } = require("./ifElse");
-const { transpileLetDeclaration } = require("./letDeclaration");
+const { transpileVarDeclaration } = require("./varDeclaration");
 
 module.exports = function (code) {
   code = transpileIfElse(code);
-  code = transpileLetDeclaration(code);
+  code = transpileVarDeclaration(code);
   return code;
 }

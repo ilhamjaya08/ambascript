@@ -2,9 +2,9 @@
 /**
  * am<I am>: let
  *
- * @function transpileLetDeclaration 
+ * @function transpileVarDeclaration 
  * @param {string} code 
  */
-exports.transpileLetDeclaration = function (code) {
+exports.transpileVarDeclaration = function (code) {
   return code.replaceAll(/am (.+) =/g, (_, variable) => `let ${variable} =`);
 }
