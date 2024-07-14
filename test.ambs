@@ -26,3 +26,19 @@ jmk count = [
 ]
 
 kam(count)
+
+kam('--------')
+
+akmw (am i = 0; i < 10; i = tam(i, 1)) kam(i);
+
+am ii = 10;
+
+kpnyh (ii >= 0) {
+  kam(ii)
+  ii = kur(ii, 1)
+}
+
+kam {
+  kam("km jmk ak jmk");
+  ii = tam(ii, 1);
+} kpnyh (ii <= 5)
